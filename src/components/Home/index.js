@@ -27,8 +27,8 @@ class Home extends Component {
 
     onFormSubmit = async (event) => {
         event.preventDefault()
-        const { area_of_interest, timeSlot, duration} = this.state
-        const apiUrl = `https://careercarve-backend-p8l0.onrender.com/mentor?areas_of_expertise=${area_of_interest}&start_time=${timeSlot}&current_duration=${duration}`
+        const { area_of_interest, timeSlot} = this.state
+        const apiUrl = `https://careercarve-backend-p8l0.onrender.com/mentor?areas_of_expertise=${area_of_interest}&start_time=${timeSlot}`
 
         const options = {
             method:'GET',
