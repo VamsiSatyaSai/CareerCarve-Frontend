@@ -1,0 +1,30 @@
+.bg-container {
+    background-color: #A7BEAE;
+    height: 100%;
+    margin: 0;   
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.bookings-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-left: 0px;
+}
+    
+.no-booking-heading {
+    color: #B85042;
+}
+.fees-container {
+    display: flex;
+    justify-content: flex-end;
+    width: inherit;
+}
+.total-fee {
+    color: #B85042;
+    font-size: 20px;
+    text-align: right;
+}

@@ -1,0 +1,29 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7E8D1;
+    width: 70vw;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 4px;
+}
+li h1{
+    font-family: roboto;
+    font-size: 20px;
+    color: #B85042;
+}
+li p{
+    font-family: roboto;
+    color: #B85042;
+}
+li button {
+    background-color: transparent;
+    border: 0px;
+    color: #E7E8D1;
+    background-color: #B85042;
+    width: fit-content;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
