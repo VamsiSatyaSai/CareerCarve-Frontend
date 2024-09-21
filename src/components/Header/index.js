@@ -4,7 +4,7 @@ import './index.css'
 
 const Header = () => (
     <nav className='navbar'>
-        <img className='logo' alt='logo' src='https://res.cloudinary.com/dmkxsg5xs/image/upload/v1724408446/Picture1_x7iijf.png'/>
+       <div class='logo'><h1>Tutor</h1></div>
         <div className='header-text-container'>
             <Link to='/' className='link'>
             <p>Home</p>
